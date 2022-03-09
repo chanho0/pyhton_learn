@@ -1,0 +1,2 @@
+pin=1;wskey=a;
+pin=2;wskey=b;
