@@ -9,6 +9,13 @@
 # print(new_str_pat.findall(text2))  # ['no.', 'yes.']
 
 
+with open("cookie0.txt", "r") as cookie:
+        cks = cookie.read()
+        newck = re.sub('\n','&',cks)
+with open("cookies.txt", "w") as newtxt:
+        newtxt.writelines(newck)
+
+
 #布尔判断
 str = '2/2/1/1/1'
 str1 = None
